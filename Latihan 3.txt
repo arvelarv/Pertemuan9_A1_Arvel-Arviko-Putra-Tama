@@ -1,0 +1,12 @@
+def main():
+  #Array yang akan dibalik urutan elemennya
+  array = [1, 3, 5, 7, 9]
+
+  #Balik urutan elemen-elemen dalam array
+  hasil = list(reversed(array))
+
+  #Tampilkan hasil
+  print(hasil)
+
+if __name__ == "__main__":
+  main()

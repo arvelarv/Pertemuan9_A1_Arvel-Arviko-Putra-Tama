@@ -1,0 +1,12 @@
+def main():
+  angka = []
+
+  for i in range(5):
+    angka.append(int(input("Masukkan angka ke-%d: " % (i + 1))))
+
+  rata_rata = sum(angka) / len(angka)
+
+  print("Rata-rata dari 5 angka tersebut adalah:", rata_rata)
+
+if __name__ == "__main__":
+  main()
