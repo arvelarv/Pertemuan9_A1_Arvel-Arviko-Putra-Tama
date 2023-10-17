@@ -1,0 +1,14 @@
+def cek_angka(angka, array):
+  for i in range(len(array)):
+    if array[i] == angka:
+      return "Ditemukan"
+  return "Tidak ditemukan"
+
+def main():
+  angka = int(input("Masukkan angka yang akan dicari: "))
+  array = [30, 7, 5, 8, 35]
+  hasil = cek_angka(angka, array)
+  print(hasil)
+
+if __name__ == "__main__":
+  main()
